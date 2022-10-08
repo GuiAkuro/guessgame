@@ -1,0 +1,24 @@
+import * as Avatar from "@radix-ui/react-avatar"
+import Link from "next/link"
+
+export const Header = () => {
+  return (
+    <header className="px-6 bg-zinc-900 h-20 flex justify-between items-center border-b border-zinc-800">
+      <div className="flex-auto flex justify-center">
+        <ul className="flex gap-8 text-white uppercase font-semibold">
+          <li><Link href="/"><a>Inicio</a></Link></li>
+          <li><Link href="#"><a>Cronograma</a></Link></li>
+          <li><Link href="/pickem"><a>Bolão</a></Link></li>
+          <li><Link href="#"><a>Classificação</a></Link></li>
+          <li><Link href="#"><a>Regras</a></Link></li>
+        </ul>
+      </div>
+
+      <Avatar.Root className="bg-zinc-800 w-12 h-12 rounded-full">
+        <Avatar.Image />
+        <Avatar.Fallback  />
+      </Avatar.Root>
+
+    </header>
+  )
+}
