@@ -2,7 +2,8 @@ export interface ITeam {
   id: number,
   name: string,
   flag: string,
-  shield: string
+  shield: string,
+  region: string
 }
 
 export interface IMatch {
