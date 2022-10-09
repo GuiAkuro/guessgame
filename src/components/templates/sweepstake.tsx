@@ -1,4 +1,5 @@
 import * as Tabs from '@radix-ui/react-tabs';
+import { Knotout } from "../organisms/knotout";
 import { Pickem } from "../organisms/pickem";
 
 export const Sweepstake = () => {
@@ -14,7 +15,7 @@ export const Sweepstake = () => {
       </Tabs.Content>
 
       <Tabs.Content value="knotout">
-        <h2>Mata-mata</h2>
+        <Knotout />
       </Tabs.Content>
     </Tabs.Root>
   )
