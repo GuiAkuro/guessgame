@@ -11,11 +11,15 @@ export const Sweepstake = () => {
       </Tabs.List>
 
       <Tabs.Content value="pickem">
-        <Pickem />
+        <div className="container mx-auto">
+          <Pickem />
+        </div>
       </Tabs.Content>
 
       <Tabs.Content value="knotout">
-        <Knotout />
+        <div className="container mx-auto">
+          <Knotout />
+        </div>
       </Tabs.Content>
     </Tabs.Root>
   )

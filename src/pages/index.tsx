@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import { Feed } from "src/components/templates/feed"
 import { Footer } from "src/components/templates/footer"
 import { Header } from "src/components/templates/header"
 
@@ -13,9 +14,9 @@ const Home: NextPage = () => {
       </Head>
 
       <Header />
-
-      <h1>Feed</h1>
-
+      <div className="container mx-auto">
+        <Feed />
+      </div>
       <Footer />
 
     </div>

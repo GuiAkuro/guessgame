@@ -2,7 +2,7 @@ import { Group } from "./group";
 
 export const Pickem = () => {
   return (
-    <div className="container mx-auto">
+    <div>
       <div className="my-8">
         <h2 className="text-2xl font-semibold text-gray-200">Fase de Grupos</h2>
       </div>
