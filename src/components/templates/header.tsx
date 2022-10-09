@@ -7,10 +7,9 @@ export const Header = () => {
       <div className="flex-auto flex justify-center">
         <ul className="flex gap-8 text-white uppercase font-semibold">
           <li><Link href="/"><a>Inicio</a></Link></li>
-          <li><Link href="#"><a>Cronograma</a></Link></li>
-          <li><Link href="/pickem"><a>Bolão</a></Link></li>
-          <li><Link href="#"><a>Classificação</a></Link></li>
-          <li><Link href="#"><a>Regras</a></Link></li>
+          <li><Link href="/games"><a>Jogos</a></Link></li>
+          <li><Link href="/sweepstake"><a>Bolão</a></Link></li>
+          <li><Link href="/ranking"><a>Classificação</a></Link></li>
         </ul>
       </div>
 

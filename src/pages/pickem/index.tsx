@@ -1,8 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-
+import { Footer } from "../../components/templates/footer"
 import { Header } from "../../components/templates/header"
-import { Pickem } from "../../components/templates/pickem"
+import { Pickem } from "../../components/organisms/pickem"
 
 const PickemPage: NextPage = () => {
   return (
@@ -15,6 +15,7 @@ const PickemPage: NextPage = () => {
 
       <Header />
       <Pickem />
+      <Footer />
     </div>
   )
 }

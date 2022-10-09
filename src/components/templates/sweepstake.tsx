@@ -1,7 +1,7 @@
 import * as Tabs from '@radix-ui/react-tabs';
-import { Group } from "../organisms/group";
+import { Pickem } from "../organisms/pickem";
 
-export const Pickem = () => {
+export const Sweepstake = () => {
   return (
     <Tabs.Root defaultValue="pickem" orientation="vertical">
       <Tabs.List className="flex h-20 border-b bg-gray-900 border-zinc-800 items-center px-6 space-x-8">
@@ -10,22 +10,7 @@ export const Pickem = () => {
       </Tabs.List>
 
       <Tabs.Content value="pickem">
-        <div className="container mx-auto">
-          <div className="my-8">
-            <h2 className="text-2xl font-semibold text-gray-200">Fase de Grupos</h2>
-          </div>
-
-          <div className="grid grid-cols-2 gap-8">
-            <Group />
-            <Group />
-            <Group />
-            <Group />
-            <Group />
-            <Group />
-            <Group />
-            <Group />
-          </div>
-        </div>
+        <Pickem />
       </Tabs.Content>
 
       <Tabs.Content value="knotout">
