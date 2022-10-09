@@ -47,6 +47,11 @@ export const Knotout = () => {
 
   return (
     <div>
+      
+      <div className="my-8">
+        <h2 className="text-2xl font-semibold text-gray-200">Mata-mata</h2>
+      </div>
+
       <div className="grid grid-cols-4 gap-12">
         { phases.map(phase => (
           <Phase key={phase.id} phase={phase} />
