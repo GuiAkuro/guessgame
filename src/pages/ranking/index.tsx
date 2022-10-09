@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import { Footer } from "src/components/templates/footer"
 import { Header } from "src/components/templates/header"
+import { Ranking } from "src/components/templates/ranking"
 
 const RankingPage: NextPage = () => {
   return (
@@ -14,7 +15,9 @@ const RankingPage: NextPage = () => {
       
       <Header />
 
-      <h1>Classificação</h1>
+      <div className="container mx-auto">
+        <Ranking />
+      </div>
 
       <Footer />
 

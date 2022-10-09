@@ -14,11 +14,12 @@ const Home: NextPage = () => {
       </Head>
 
       <Header />
+      
       <div className="container mx-auto">
         <Feed />
       </div>
+    
       <Footer />
-
     </div>
   )
 }

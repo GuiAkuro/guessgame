@@ -13,7 +13,7 @@ export const Header = () => {
         </ul>
       </div>
 
-      <Avatar.Root className="bg-zinc-800 w-12 h-12 rounded-full">
+      <Avatar.Root className="bg-zinc-800 w-11 h-11 rounded">
         <Avatar.Image />
         <Avatar.Fallback  />
       </Avatar.Root>

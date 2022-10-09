@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import { Footer } from "src/components/templates/footer"
+import { Games } from "src/components/templates/games"
 import { Header } from "src/components/templates/header"
 
 const GamesPage: NextPage = () => {
@@ -14,7 +15,9 @@ const GamesPage: NextPage = () => {
       
       <Header />
 
-      <h1>Jogos</h1>
+      <div className="container mx-auto">
+        <Games />
+      </div>
 
       <Footer />
 
