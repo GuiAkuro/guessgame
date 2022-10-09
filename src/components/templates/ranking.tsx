@@ -1,4 +1,4 @@
-import { Table } from "../organisms/table"
+import { RankingTable } from "../organisms/ranking-table"
 
 export const Ranking = () => {
   return (
@@ -7,7 +7,7 @@ export const Ranking = () => {
         <h2 className="text-2xl font-semibold text-gray-200 capitalize">classificação</h2>
       </div>
 
-      <Table />
+      <RankingTable />
     </div>
   )
 }
