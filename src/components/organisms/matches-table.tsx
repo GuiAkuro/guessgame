@@ -26,8 +26,8 @@ export const MatchesTable = () => {
                 </div>
 
               </td>
-              <td className="p-4" width="250">
-                <button className="h-10 w-full rounded">Fazer meu palpite</button>
+              <td className="p-4" width="200">
+                <button className="h-8 px-6 border border-green-600 text-green-600 text-xs  rounded uppercase font-semibold">Fazer meu palpite</button>
               </td>
             </tr>
 
@@ -51,8 +51,8 @@ export const MatchesTable = () => {
                 </div>
 
               </td>
-              <td className="p-4" width="250">
-                <button className="h-10 w-full rounded">Fazer meu palpite</button>
+              <td className="p-4" width="200">
+                <button className="h-8 px-6 border border-green-600 text-green-600 text-xs  rounded uppercase font-semibold">Fazer meu palpite</button>
               </td>
             </tr>
 
@@ -76,8 +76,8 @@ export const MatchesTable = () => {
                 </div>
 
               </td>
-              <td className="p-4" width="250">
-                <button className="h-10 w-full rounded">Fazer meu palpite</button>
+              <td className="p-4" width="200">
+                <button className="h-8 px-6 border border-green-600 text-green-600 text-xs  rounded uppercase font-semibold">Fazer meu palpite</button>
               </td>
             </tr>
 
@@ -101,8 +101,8 @@ export const MatchesTable = () => {
                 </div>
 
               </td>
-              <td className="p-4" width="250">
-                <button className="h-10 w-full rounded">Fazer meu palpite</button>
+              <td className="p-4" width="200">
+                <button className="h-8 px-6 border border-green-600 text-green-600 text-xs  rounded uppercase font-semibold">Fazer meu palpite</button>
               </td>
             </tr>
 
@@ -126,8 +126,8 @@ export const MatchesTable = () => {
                 </div>
 
               </td>
-              <td className="p-4" width="250">
-                <button className="h-10 w-full rounded">Fazer meu palpite</button>
+              <td className="p-4" width="200">
+                <button className="h-8 px-6 border border-green-600 text-green-600 text-xs  rounded uppercase font-semibold">Fazer meu palpite</button>
               </td>
             </tr>
 
@@ -151,8 +151,8 @@ export const MatchesTable = () => {
                 </div>
 
               </td>
-              <td className="p-4" width="250">
-                <button className="h-10 w-full rounded">Fazer meu palpite</button>
+              <td className="p-4" width="200">
+                <button className="h-8 px-6 border border-green-600 text-green-600 text-xs  rounded uppercase font-semibold">Fazer meu palpite</button>
               </td>
             </tr>
 
@@ -176,8 +176,8 @@ export const MatchesTable = () => {
                 </div>
 
               </td>
-              <td className="p-4" width="250">
-                <button className="h-10 w-full rounded">Fazer meu palpite</button>
+              <td className="p-4" width="200">
+                <button className="h-8 px-6 border border-green-600 text-green-600 text-xs  rounded uppercase font-semibold">Fazer meu palpite</button>
               </td>
             </tr>
           </tbody>

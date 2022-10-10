@@ -20,7 +20,7 @@ export const NearMatches = () => {
             <div className="text-2xl">Equador</div>
           </div>
         </div>
-        <button className="h-12 bg-green-600 w-full rounded">Fazer meu palpite</button>
+        <button className="h-12 bg-green-600 w-full rounded uppercase font-semibold text-sm">Fazer meu palpite</button>
       </div>
 
       <div className="grid gap-4">

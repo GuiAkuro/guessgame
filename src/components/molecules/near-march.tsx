@@ -18,7 +18,7 @@ export const NearMatch = () => {
           <div className="">Equador</div>
         </div>
       </div>
-      <button className="h-12 border border-green-600 text-green-600 text-sm w-full rounded">Fazer meu palpite</button>
+      <button className="h-12 border border-green-600 text-green-600 text-sm w-full rounded uppercase font-semibold">Fazer meu palpite</button>
     </div>
   )
 }
