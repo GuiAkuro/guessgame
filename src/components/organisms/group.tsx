@@ -20,13 +20,21 @@ export const Group = ({ group }: IGroupProps) => {
 
   return (
     <div>
-      <h3 className="text-xl font-semibold text-gray-200 mb-4 capitalize">{group.name}</h3>
+      <h3 className="ml-16 text-xl font-semibold text-gray-200 mb-4 capitalize">{group.name}</h3>
 
-      <Reorder.Group axis="y" values={teams} onReorder={setTeams} className="flex flex-col gap-4">
-        { teams.map(team => (
-          <GroupItem key={team.id} team={team} />
-        ))}
-      </Reorder.Group>
+      <div className="flex">
+        <div className="">
+          <div className="text-gray-200 font-bold text-2xl px-6 py-[30px]">1</div>
+          <div className="text-gray-200 font-bold text-2xl px-6 py-[30px]">2</div>
+          <div className="text-gray-200 font-bold text-2xl px-6 py-[30px]">3</div>
+          <div className="text-gray-200 font-bold text-2xl px-6 py-[30px]">4</div>
+        </div>
+        <Reorder.Group axis="y" values={teams} onReorder={setTeams} className="flex-auto flex flex-col gap-4">
+          { teams.map(team => (
+            <GroupItem key={team.id} team={team} />
+          ))}
+        </Reorder.Group>
+      </div>
 
     </div>
   ) 

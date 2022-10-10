@@ -62,6 +62,36 @@ export const RankingTable = () => {
             <td className="p-4">Guilherme Alves</td>
             <td className="p-4" width="100">21 pts.</td>
           </tr>
+
+          <tr className="border-b border-zinc-800">
+            <td className="p-4 font-bold text-lg" width="80">11</td>
+            <td className="p-4">Guilherme Alves</td>
+            <td className="p-4" width="100">21 pts.</td>
+          </tr>
+
+          <tr className="border-b border-zinc-800">
+            <td className="p-4 font-bold text-lg" width="80">12</td>
+            <td className="p-4">Guilherme Alves</td>
+            <td className="p-4" width="100">21 pts.</td>
+          </tr>
+
+          <tr className="border-b border-zinc-800">
+            <td className="p-4 font-bold text-lg" width="80">13</td>
+            <td className="p-4">Guilherme Alves</td>
+            <td className="p-4" width="100">21 pts.</td>
+          </tr>
+
+          <tr className="border-b border-zinc-800">
+            <td className="p-4 font-bold text-lg" width="80">14</td>
+            <td className="p-4">Guilherme Alves</td>
+            <td className="p-4" width="100">21 pts.</td>
+          </tr>
+
+          <tr className="border-b border-zinc-800">
+            <td className="p-4 font-bold text-lg" width="80">15</td>
+            <td className="p-4">Guilherme Alves</td>
+            <td className="p-4" width="100">21 pts.</td>
+          </tr>
         </tbody>
       </table>
     </div>
