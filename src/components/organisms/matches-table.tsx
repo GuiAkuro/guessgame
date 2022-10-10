@@ -7,7 +7,7 @@ export const MatchesTable = () => {
         <table className="w-full text-gray-200 text-sm">
           <tbody>
             <tr className="border-b border-zinc-800">
-              <td className="p-4" width="200">21/11 13:00</td>
+              <td className="p-4" width="230">21/11 13:00</td>
               <td className="p-4">
                 <div className="flex items-center justify-center gap-4">
                   <div className="flex items-center gap-4">
@@ -26,13 +26,13 @@ export const MatchesTable = () => {
                 </div>
 
               </td>
-              <td className="p-4" width="200">
+              <td className="p-4" width="230">
                 <button className="h-8 px-6 border border-green-600 text-green-600 text-xs  rounded uppercase font-semibold">Fazer meu palpite</button>
               </td>
             </tr>
 
             <tr className="border-b border-zinc-800">
-              <td className="p-4" width="200">21/11 13:00</td>
+              <td className="p-4" width="230">21/11 13:00</td>
               <td className="p-4">
                 <div className="flex items-center justify-center gap-4">
                   <div className="flex items-center gap-4">
@@ -51,13 +51,13 @@ export const MatchesTable = () => {
                 </div>
 
               </td>
-              <td className="p-4" width="200">
+              <td className="p-4" width="230">
                 <button className="h-8 px-6 border border-green-600 text-green-600 text-xs  rounded uppercase font-semibold">Fazer meu palpite</button>
               </td>
             </tr>
 
             <tr className="border-b border-zinc-800">
-              <td className="p-4" width="200">21/11 13:00</td>
+              <td className="p-4" width="230">21/11 13:00</td>
               <td className="p-4">
                 <div className="flex items-center justify-center gap-4">
                   <div className="flex items-center gap-4">
@@ -76,13 +76,13 @@ export const MatchesTable = () => {
                 </div>
 
               </td>
-              <td className="p-4" width="200">
+              <td className="p-4" width="230">
                 <button className="h-8 px-6 border border-green-600 text-green-600 text-xs  rounded uppercase font-semibold">Fazer meu palpite</button>
               </td>
             </tr>
 
             <tr className="border-b border-zinc-800">
-              <td className="p-4" width="200">21/11 13:00</td>
+              <td className="p-4" width="230">21/11 13:00</td>
               <td className="p-4">
                 <div className="flex items-center justify-center gap-4">
                   <div className="flex items-center gap-4">
@@ -101,13 +101,13 @@ export const MatchesTable = () => {
                 </div>
 
               </td>
-              <td className="p-4" width="200">
+              <td className="p-4" width="230">
                 <button className="h-8 px-6 border border-green-600 text-green-600 text-xs  rounded uppercase font-semibold">Fazer meu palpite</button>
               </td>
             </tr>
 
             <tr className="border-b border-zinc-800">
-              <td className="p-4" width="200">21/11 13:00</td>
+              <td className="p-4" width="230">21/11 13:00</td>
               <td className="p-4">
                 <div className="flex items-center justify-center gap-4">
                   <div className="flex items-center gap-4">
@@ -126,13 +126,13 @@ export const MatchesTable = () => {
                 </div>
 
               </td>
-              <td className="p-4" width="200">
+              <td className="p-4" width="230">
                 <button className="h-8 px-6 border border-green-600 text-green-600 text-xs  rounded uppercase font-semibold">Fazer meu palpite</button>
               </td>
             </tr>
 
             <tr className="border-b border-zinc-800">
-              <td className="p-4" width="200">21/11 13:00</td>
+              <td className="p-4" width="230">21/11 13:00</td>
               <td className="p-4">
                 <div className="flex items-center justify-center gap-4">
                   <div className="flex items-center gap-4">
@@ -151,13 +151,13 @@ export const MatchesTable = () => {
                 </div>
 
               </td>
-              <td className="p-4" width="200">
+              <td className="p-4" width="230">
                 <button className="h-8 px-6 border border-green-600 text-green-600 text-xs  rounded uppercase font-semibold">Fazer meu palpite</button>
               </td>
             </tr>
 
             <tr className="border-b border-zinc-800">
-              <td className="p-4" width="200">21/11 13:00</td>
+              <td className="p-4" width="230">21/11 13:00</td>
               <td className="p-4">
                 <div className="flex items-center justify-center gap-4">
                   <div className="flex items-center gap-4">
@@ -176,7 +176,7 @@ export const MatchesTable = () => {
                 </div>
 
               </td>
-              <td className="p-4" width="200">
+              <td className="p-4" width="230">
                 <button className="h-8 px-6 border border-green-600 text-green-600 text-xs  rounded uppercase font-semibold">Fazer meu palpite</button>
               </td>
             </tr>
