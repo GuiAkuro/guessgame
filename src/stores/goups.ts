@@ -95,7 +95,5 @@ function updateGroup(groupId: number, teams: ITeam[], groups: IGroup[]): IGroup[
     group.teams = teams
   }
 
-  console.log(group)
-
   return groups
 }
