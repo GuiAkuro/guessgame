@@ -1,5 +1,6 @@
-import { Reorder } from "framer-motion"
+import { Reorder } from 'framer-motion'
 import { useState } from "react"
+import { useGroupsStore } from "src/stores/goups"
 import { GroupItem } from "../molecules/group-item"
 import { ITeam } from "../molecules/match"
 
@@ -15,7 +16,13 @@ interface IGroupProps {
 
 export const Group = ({ group }: IGroupProps) => {
 
+  const { updateGroup } = useGroupsStore()
   const [teams, setTeams] = useState(group.teams)
+
+  function handleReorder(teams: ITeam[]) {
+    setTeams(teams)
+    updateGroup(group.id, teams)
+  }
 
 
   return (
@@ -29,8 +36,8 @@ export const Group = ({ group }: IGroupProps) => {
           <div className="text-gray-200 font-bold text-2xl px-6 py-[30px]">3</div>
           <div className="text-gray-200 font-bold text-2xl px-6 py-[30px]">4</div>
         </div>
-        <Reorder.Group axis="y" values={teams} onReorder={setTeams} className="flex-auto flex flex-col gap-4">
-          { teams.map(team => (
+        <Reorder.Group axis="y" values={teams} onReorder={handleReorder} className="relative flex-auto flex flex-col gap-4">
+          {teams.map(team => (
             <GroupItem key={team.id} team={team} />
           ))}
         </Reorder.Group>

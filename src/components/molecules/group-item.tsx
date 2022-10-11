@@ -1,4 +1,4 @@
-import { Reorder } from "framer-motion"
+import { Reorder } from 'framer-motion'
 import Image from "next/future/image"
 import { ITeam } from "./match"
 
@@ -8,7 +8,7 @@ interface IGroupItemProps {
 
 export const GroupItem = ({ team }: IGroupItemProps) => {
   return (
-    <Reorder.Item value={team} className="flex bg-zinc-800 p-4 rounded gap-4">
+    <Reorder.Item value={team} id={`${team.id}`} className="flex bg-zinc-800 p-4 rounded gap-4">
       <div className="relative w-12 h-12">
         <Image src={team.shield} alt="" fill className="absolute" />
       </div>
